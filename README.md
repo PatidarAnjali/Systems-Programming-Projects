@@ -33,7 +33,11 @@ A terminal dashboard that tracks memory usage, CPU utilization, and connected us
 - `#` symbols build up horizontally over time for memory; `:` for CPU — creating a scrolling timeline history within a fixed graph region
 - ANSI `\033[row;colH` for cursor movement; `\033[K` to clear to end-of-line — no `system()` calls, no shell commands
 
-<!-- add screenshots l8r -->
+## Screenshots
+<img width="1512" height="874" alt="Screenshot 2026-02-06 at 6 27 55 PM" src="https://github.com/user-attachments/assets/ae435e40-26be-4f4f-8d57-f76c640f999f" />
+<img width="1512" height="878" alt="Screenshot 20<img width="1512 height="866" alt="Screenshot 2026-02-06 at 6 25 14 PM" src="https://github.com/user-attachments/assets/0308fffa-4df3-476f-a6c2-6b362f40c4b2" />
+<img width="1512" height="882" alt="Screenshot 2026-02-06 at 6 26 46 PM" src="https://github.com/user-attachments/assets/99ea23e9-cbde-4081-9284-68796569e336" />
+<img width="1512" height="866" alt="Screenshot 2026-02-06 at 6 25 14 PM" src="https://github.com/user-attachments/assets/77dab9af-6099-4d55-87dc-61872f90b06c" />
 
 ---
 
@@ -88,7 +92,8 @@ Ran each output mode 7× and averaged `time` results:
 
 Binary is ~10× larger because each entry is stored at full fixed size (`MAX_PATH_LEN = 1024`) regardless of actual filename length.
 
-<!-- add screenshots l8r -->
+## Screenshots
+[FD table inspector screenshots.pdf](https://github.com/user-attachments/files/26952554/FD.table.inspector.screenshots.pdf)
 
 ---
 
@@ -156,8 +161,6 @@ make run # build + run with 5 samples at 0.5s
 make clean # remove obj/ and binary
 make rebuild # clean then build from scratch
 ```
-
-<!-- add screenshots l8r -->
 
 ---
 
