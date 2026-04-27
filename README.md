@@ -176,4 +176,4 @@ make rebuild # clean then build from scratch
 
 ---
 
-*These were projects I completed for a systems programming course at the University of Toronto Scarborough. Full source code is not posted publicly — if you'd like to discuss the implementation, feel free to reach out.*
+*These were projects I completed for a systems programming course at the University of Toronto Scarborough. Full source code is not posted publicly; if you'd like to discuss the implementation, feel free to reach out.*
